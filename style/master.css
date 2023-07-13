@@ -1,0 +1,541 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #20272d;
+}
+
+.head {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/bg-slider\ \(1\).png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.head > header {
+  width: inherit;
+  height: 100px;
+  padding: 5px 20px;
+}
+.head > header > figure {
+  width: 30%;
+  padding: 5px 50px;
+  display: flex;
+  align-items: center;
+}
+.head > header > figure > img {
+  width: 50%;
+}
+.head > header > nav {
+  width: 30%;
+}
+.head > header > nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.head > header > nav > ul > li:nth-of-type(1) {
+  color: #86ff00;
+}
+.head > header > nav > ul > li > a {
+  display: flex;
+  height: 100%;
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  text-transform: capitalize;
+  transition: 1s;
+}
+.head > header > nav > ul > li > a:hover {
+  color: #86ff00;
+}
+.head > header div {
+  width: 30%;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  justify-content: right;
+  transition: 1s;
+}
+.head > header div a {
+  font-size: 20px;
+  color: white;
+  background-color: #798da3;
+  padding: 5px 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+.head > header div a:hover {
+  color: #86ff00;
+  background-color: #86ff00;
+  color: #09121d;
+  border: 4px solid #86ff00;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.head #heat-top {
+  height: calc(100vh - 100px);
+}
+.head #heat-top .text {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.head #heat-top .text div {
+  margin: 100px;
+}
+.head #heat-top .text div h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.head #heat-top .text div p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px;
+}
+.head #heat-top .text div a {
+  background-color: #86ff00;
+  color: black;
+  font-size: 30px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 100px 100px;
+  transition: 1s;
+}
+.head #heat-top .text div a:hover {
+  background-color: #798da3;
+  color: white;
+}
+.head #heat-top .text div div figure {
+  display: flex;
+  padding: 50px 10px;
+}
+.head #heat-top .img {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.head #heat-top .img div figure {
+  position: relative;
+}
+.head #heat-top .img div figure:first-of-type {
+  width: 100%;
+  margin: 40px;
+  top: 100px;
+  left: 900px;
+}
+.head #heat-top .img div figure {
+  position: absolute;
+}
+.head #heat-top .img div figure:last-of-type {
+  top: 400px;
+  left: 1500px;
+}
+.head #heat-top .img div figure:last-of-type img {
+  width: 80%;
+}
+
+#IGO {
+  background-color: #212529;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#IGO h2 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+#IGO h2:hover {
+  color: #86ff00;
+  font-size: 80px;
+}
+#IGO div:first-of-type {
+  display: flex;
+  width: 50%;
+}
+#IGO div:first-of-type figure {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+}
+#IGO div:first-of-type figure img {
+  width: 100%;
+}
+#IGO div:last-of-type {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #33393f;
+}
+#IGO div:last-of-type div {
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  margin: 50px;
+}
+#IGO div:last-of-type div h3 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+#IGO div:last-of-type div p:first-of-type {
+  color: #798DA3;
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+}
+#IGO div:last-of-type div p:last-of-type {
+  background-color: #86ff00;
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#Projects {
+  background-image: url(../img/bg_project.png);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+#Projects h3 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+#Projects h3:hover {
+  color: #86ff00;
+}
+#Projects div {
+  display: flex;
+  padding: 20px 90px;
+}
+#Projects div figure img {
+  width: 80%;
+}
+#Projects div figure figcaption h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#Projects div figure figcaption h2:hover {
+  color: #86ff00;
+}
+#Projects div figure figcaption p {
+  color: #798DA3;
+  font-size: 20px;
+  text-align: center;
+}
+#Projects div figure figcaption div {
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+#Projects div figure figcaption div i {
+  padding: 10px;
+}
+#Projects div figure figcaption div i:hover {
+  color: #86ff00;
+  font-size: 40px;
+}
+#Projects #box {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/bg_project.png);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px;
+}
+#Projects #box div {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  padding: 5px 50px;
+  margin: 10px 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #20272d;
+  transition: 1s;
+}
+#Projects #box div:hover {
+  transform: perspective(800px) translateZ(300px);
+}
+#Projects #box div h2 {
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 15px #727272;
+}
+#Projects #box div h2:hover {
+  text-shadow: 0 0 100px;
+  color: #86ff00;
+}
+#Projects #box div p {
+  color: #798DA3;
+  font-size: 15px;
+}
+#Projects #box div i {
+  color: white;
+  font-size: 20px;
+  padding: 2px 10px;
+}
+#Projects #box div i:hover {
+  color: #86ff00;
+  font-size: 30px;
+}
+#Projects #box h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 5px 30px;
+  margin: 30px;
+}
+#Projects #box h2:hover {
+  color: #86ff00;
+}
+#Projects .box {
+  width: 100%;
+  height: auto;
+  background-color: #09121D;
+  padding: 50px 100px;
+  justify-content: center;
+}
+#Projects .box div {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  padding: 5px 50px;
+  margin: 10px 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#Projects .box div h2 {
+  color: white;
+}
+#Projects .box div p {
+  color: #798da3;
+}
+#Projects #img {
+  background-color: #09121D;
+  justify-content: center;
+  align-items: center;
+}
+#Projects #img figure {
+  padding: 5px 100px;
+}
+
+.box {
+  background-color: #09121D;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.box h2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-align: center;
+}
+.box h2:hover {
+  color: #86ff00;
+  text-shadow: 0 0 15px #727272;
+}
+.box div {
+  width: 50%;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  padding: 50px 100px;
+}
+.box div h4 {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  padding: 10px 10px;
+}
+.box div h5 {
+  color: #86ff00;
+  font-size: 20px;
+  padding: 4px 10px;
+}
+
+.Launch {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.Launch div:nth-of-type(1) h2 {
+  color: white;
+  font-size: 30px;
+  margin: 30px;
+}
+.Launch div:nth-of-type(1) p {
+  color: #798da3;
+  font-size: 20px;
+  margin: 30px;
+}
+.Launch div:nth-of-type(1) a {
+  background-color: #727272;
+  color: white;
+  font-size: 20px;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+.Launch div:nth-of-type(1) a:hover {
+  background-color: #86ff00;
+  color: black;
+}
+
+.our {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.our h2 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin: 30px;
+}
+.our div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our div figure:hover {
+  transform: perspective(800px) translateZ(300px);
+}
+
+.foot {
+  width: 100%;
+  height: 350px;
+  background-color: #09121D;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+}
+.foot div {
+  width: 20%;
+  height: 90%;
+}
+.foot div:nth-of-type(1) {
+  width: 40%;
+  padding: 0 100px;
+}
+.foot div:nth-of-type(1) figure {
+  width: 40%;
+  height: 20%;
+}
+.foot div:nth-of-type(1) figure img {
+  width: 100%;
+  height: 100%;
+}
+.foot div:nth-of-type(1) p {
+  color: #798DA3;
+  font-size: 15px;
+  margin: 20px 10px;
+}
+.foot div:nth-of-type(2) {
+  border-right: 1px solid rgba(121, 141, 163, 0.6274509804);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.foot div:nth-of-type(2) h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.foot div:nth-of-type(2) i {
+  padding: 10px 0;
+  transition: 1s;
+}
+.foot div:nth-of-type(2) i:hover {
+  color: #86ff00;
+}
+.foot div:nth-of-type(3) {
+  border-right: 1px solid rgba(121, 141, 163, 0.7019607843);
+  padding-left: 40px;
+}
+.foot div:nth-of-type(4) {
+  padding-left: 40px;
+}
+.foot div:nth-of-type(3), .foot div:nth-of-type(4) {
+  color: white;
+}
+.foot div:nth-of-type(3) h3, .foot div:nth-of-type(4) h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.foot div:nth-of-type(3) section, .foot div:nth-of-type(4) section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.foot div:nth-of-type(3) section a, .foot div:nth-of-type(4) section a {
+  padding: 10px;
+  transition: 1s;
+}
+.foot div:nth-of-type(3) section a:hover, .foot div:nth-of-type(4) section a:hover {
+  color: #86ff00;
+}
+
+.bf {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #09121D;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-top: 1px solid rgba(121, 141, 163, 0.5647058824);
+}
+.bf div:nth-of-type(1) {
+  display: flex;
+  transition: 0.5s;
+}
+.bf div:nth-of-type(1) a {
+  margin-left: 10px;
+}
+.bf div:nth-of-type(1) a:hover {
+  color: #86ff00;
+}
+.bf div:nth-of-type(2) i {
+  font-size: 30px;
+  transition: 1s;
+  margin: 0 10px;
+  border: 1px solid #798DA3;
+  border-radius: 100px;
+  padding: 20px;
+}
+.bf div:nth-of-type(2) i:hover {
+  background-color: #86ff00;
+  color: black;
+}/*# sourceMappingURL=master.css.map */
